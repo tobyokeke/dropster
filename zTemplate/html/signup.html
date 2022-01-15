@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="MAVIA - Register, Reservation, Questionare, Reviews form wizard">
+	<meta name="author" content="Ansonika">
+	<title>Dropster- Sign Up</title>
+
+	<!-- Favicons-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- GOOGLE WEB FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	<!-- BASE CSS -->
+	<link href="csss/bootstrap.min.css" rel="stylesheet">
+	<link href="csss/style.html" rel="stylesheet">
+	<link href="csss/responsive.css" rel="stylesheet">
+	<link href="csss/menu.css" rel="stylesheet">
+	<link href="csss/animate.min.css" rel="stylesheet">
+	<link href="csss/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+	<link href="csss/skins/square/grey.css" rel="stylesheet">
+
+	<!-- YOUR CUSTOM CSS -->
+	<link href="csss/custom.css" rel="stylesheet">
+
+	<script src="jss/modernizr.js"></script>
+	<!-- Modernizr -->
+<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/logo/logoo.png">
+</head>
+
+<body>
+	
+	
+
+	<!-- End Header -->
+
+	<main>
+		<div id="form_container">
+			<div class="row">
+				<div class="col-md-5">
+					<div id="left_form">
+						<figure><img src="images/logo/logo3.png" alt=""></figure>
+						<h2>Sign Up</h2>
+						<p>Enjoy, smart movement of your package (Asoebi, Food, ButterCream Cake, Laptop Charger, Groceries) from point A to point B with accurate information, delivered in 30 minutes.</p>
+						<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i class="pe-7s-info"></i></a>
+					</div>
+				</div>
+				<div class="col-md-7">
+
+					<div id="wizard_container">
+						<div id="top-wizard">
+							<div id="progressbar"></div>
+						</div>
+						<!-- /top-wizard -->
+						<form name="example-1" id="wrapped" method="POST">
+							<input id="website" name="website" type="text" value="">
+							<!-- Leave for security protection, read docs for details -->
+							<div id="middle-wizard">
+
+								<div class="step">
+									<h3 class="main_question"><strong>1/3</strong>Please fill with your details</h3>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" name="firstname" class="form-control required" placeholder="First name">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" name="lastname" class="form-control required" placeholder="Last name">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" name="username" class="form-control required" placeholder="Instagram Handle">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" name="reffered" class="form-control" placeholder="Reffered By (optional)">
+											</div>
+										</div>
+									</div>
+									<!-- /row -->
+
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="email" name="email" class="form-control required" placeholder="Your Email">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" name="phone" class="form-control required" placeholder="Phone Number">
+											</div>
+										</div>
+									</div>
+									<!-- /row -->
+
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" name="age" class="form-control" placeholder="Age">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group radio_input">
+												<label><input type="radio" value="Male" checked name="gender" class="icheck">Male</label>
+												<label><input type="radio" value="Female" name="gender" class="icheck">Female</label>
+											</div>
+										</div>
+									</div>
+									<!-- /row -->
+								</div>
+								<!-- /step-->
+
+								<div class="step">
+									<h3 class="main_question"><strong>2/3</strong>Please fill with additional info</h3>
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<input type="text" name="address" class="form-control required" placeholder="Address">
+											</div>
+										</div>
+										<!-- /col-sm-12 -->
+									</div>
+									<!-- /row -->
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" name="city" class="form-control required" placeholder="City">
+											</div>
+										</div>
+										
+									</div>
+									<!-- /row -->
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<div class="styled-select">
+													<select class="required" name="country">
+														<option value="" selected>Choose your profession</option>
+														<option value="Stylist">Stylist</option>
+														<option value="Pastry Chef">Pastry Chef</option>
+														<option value="Chef">Chef</option>
+														<option value="Fashion Designer">Fashion Designer</option>
+														<option value="Corporate Worker">Corporate Worker</option>
+														<option value="Laundry">Laundry</option>
+															<option value="Other">Other</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /row -->
+								</div>
+								<!-- /step-->
+
+								<div class="submit step">
+									<h3 class="main_question"><strong>3/3</strong>Your'e Done!</h3>
+									<br>
+									<h3>Click Submit to Continue</h3>
+									<br>
+									<div class="form-group terms">
+										<input name="terms" type="checkbox" class="icheck required" value="yes">
+										<label>Please accept <a href="#" data-toggle="modal" data-target="#terms-txt">terms and conditions</a> ?</label>
+									</div>
+								</div>
+								<!-- /step-->
+							</div>
+							<!-- /middle-wizard -->
+							<div id="bottom-wizard">
+								<button type="button" name="backward" class="backward">Backward </button>
+								<button type="button" name="forward" class="forward">Forward</button>
+								<button type="submit" name="process" class="submit">Submit</button>
+							</div>
+							<!-- /bottom-wizard -->
+						</form>
+					</div>
+					<!-- /Wizard container -->
+				</div>
+			</div><!-- /Row -->
+		</div><!-- /Form_container -->
+	</main>
+	
+	<footer id="home" class="clearfix">
+		<p>Dropster© 2016 Gurudeveloperinc</p>
+		<ul>
+			<li><a href="index.html" class="animated_link">Back to Home</a></li>
+			<li><a href="terms.html" class="animated_link">Terms and conditions</a></li>
+			<li><a href="contact.html" class="animated_link">Contact</a></li>
+		</ul>
+	</footer>
+	<!-- end footer-->
+	
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- cd-overlay-nav -->
+
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- cd-overlay-content -->
+
+
+
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- Modal info -->
+	<div class="modal fade" id="more-info" tabindex="-1" role="dialog" aria-labelledby="more-infoLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="more-infoLabel">Frequently asked questions</h4>
+				</div>
+				<div class="modal-body">
+					 <p><strong>How do I place an order?</strong><br>All you have to do is to download our app from either playstore or app store and register and you can start placing orders with our easy to use features.</p>
+          <p><strong> How long should it take to ship my parcel?</strong><br>Weather, traffic, road conditions and other unforeseen factors make guaranteeing the delivery time impossible for all delivery companies; however we make sure all deliveries within the city are within the time frame of 30 - 60 minutes. One thing DROPSTER can guarantee.</p>
+     <p><strong>What payment options do i have?</strong><br> We gladly accept any one of the following payment methods: credit/debit cards to top-up the in-app balance, credit/debit cards for POS transactions, cash payments and Bitcoin.</p>
+   
+		  </div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- SCRIPTS -->
+	<!-- Jquery-->
+	<script src="jss/jquery-2.2.4.min.js"></script>
+	<!-- Common script -->
+	<script src="jss/common_scripts_min.js"></script>
+	<!-- Wizard script -->
+	<script src="jss/registration_wizard_func.js"></script>
+	<!-- Menu script -->
+	<script src="jss/velocity.min.js"></script>
+	<script src="jss/main.html"></script>
+	<!-- Theme script -->
+	<script src="jss/functions.js"></script>
+	<!-- Google map -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="jss/mapmarker.jquery.js"></script>
+	<script src="jss/mapmarker_func.jquery.js"></script>
+
+</body>
+
+</html>
