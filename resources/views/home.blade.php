@@ -134,7 +134,7 @@ SECTION 2
                         <img src="images/logo/map-placeholder-1.png" alt="">
                         <div class="map-meta-data tran3s">
                             <h6>Dropster Main Office</h6>
-                            <p>No 35 Ademola Adetokunbo Street, Wuse 2, Abuja.</p>
+                            <p>21st Street, Games Village, Abuja.</p>
                         </div>
                     </div>
                 </div> <!-- /.map-image-warpper -->

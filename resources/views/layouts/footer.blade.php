@@ -10,7 +10,14 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-7 col-xs-12 text-right pull-right">
                         <ul class="footer-menu">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
                             <li><a href="tel:+2348179390873" class="tran3s">Call us now! +234 817 939 0873</a></li>
+
                         </ul>
                         <ul class="social-icon">
                             <li><a href="https://facebook.com/dropsterng" target="_blank" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
